@@ -15,6 +15,6 @@ app.get('/index.html', function(req, res) {
   res.send("<html><body><h3>Hello from Express.</h3></body></html>")
 });
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("I'm up and running on port 3000");
 });
