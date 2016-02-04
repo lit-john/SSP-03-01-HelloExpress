@@ -3,7 +3,7 @@ var express = require("express");
 var app = express();
 
 app.get('/', function(req, res) {
-  console.console.log("Received a get request");
+  console.log("Received a get request");
   var o = {
     msg: "Hello from node (JSON)"
   };
